@@ -49,7 +49,7 @@ Um den Server lokal auszuführen, folgen Sie diesen Schritten:
 
 1.  **Repository klonen**
     ```sh
-    git clone [https://github.com/Timbord/cinematch-backend.git](https://github.com/Timbord/cinematch-backend.git)
+    git clone https://github.com/Timbord/cinematch-backend.git
     ```
 2.  **Abhängigkeiten installieren**
     ```sh
