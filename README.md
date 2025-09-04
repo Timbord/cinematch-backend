@@ -37,9 +37,9 @@ Dieses Backend wurde für die Bachelorarbeit "CineMatch" entwickelt und ist konz
 
 Die wichtigsten Endpunkte sind:
 
-- `GET /api/movies/popular`: Ruft beliebte Filme von der TMDB ab.
-- `GET /api/movies/search?q={query}`: Sucht nach Filmen.
-- `POST /api/chat`: Verarbeitet die Chat-Nachrichten für den Chatbot "Matchy" (benötigt gültigen ChatGPT API-Schlüssel).
+- `POST /getPopular`: Ruft beliebte Filme von der TMDB ab.
+- `POST /getMovieDetails`: Gibt Details zu Film zurück.
+- `POST /chat`: Verarbeitet die Chat-Nachrichten für den Chatbot "Matchy" (benötigt gültigen ChatGPT API-Schlüssel).
 
 ---
 
@@ -49,7 +49,7 @@ Um den Server lokal auszuführen, folgen Sie diesen Schritten:
 
 1.  **Repository klonen**
     ```sh
-    git clone [https://github.com/dein-username/cinematch-backend.git](https://github.com/dein-username/cinematch-backend.git)
+    git clone [https://github.com/Timbord/cinematch-backend.git](https://github.com/Timbord/cinematch-backend.git)
     ```
 2.  **Abhängigkeiten installieren**
     ```sh
@@ -63,9 +63,9 @@ Um den Server lokal auszuführen, folgen Sie diesen Schritten:
     ```
 4.  **Server starten**
     ```sh
-    npm start
+    node index.js
     ```
-    Der Server läuft dann standardmäßig auf `http://localhost:8000`.
+    Der Server läuft dann standardmäßig auf `http://localhost:3000`.
 
 ---
 
@@ -75,11 +75,12 @@ Um den Server lokal auszuführen, folgen Sie diesen Schritten:
 - [Express.js](https://expressjs.com/)
 - [Axios](https://axios-http.com/)
 - [dotenv](https://www.npmjs.com/package/dotenv)
+- [cors](https://expressjs.com/en/resources/middleware/cors.html)
 
 ---
 
 ### Kontakt
 
-Lorenz Karow - [deine-email@gmail.com](mailto:deine-email@gmail.com)
+Lorenz Karow - [lorenzkarow@gmail.com](mailto:lorenzkarow@gmail.com)
 
-Projekt-Link: [https://github.com/dein-username/cinematch-backend](https://github.com/dein-username/cinematch-backend)
+Projekt-Link: [https://github.com/Timbord/cinematch-backend](https://github.com/Timbord/cinematch-backend)
